@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aprendamos informática</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container1">
+        <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
+          <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+            <span class="fs-4">Aprendamos informática</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Inicio</a></li>
+            <li class="nav-item"><a href="#aprendizaje" class="nav-link">Aprendizaje</a></li>
+            <li class="nav-item"><a href="#descripciones" class="nav-link">Descripciones</a></li>
+          </ul>
+        </header>
+      </div>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="imgs" id="componentes"></div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fw-bold">Partes de una computadora</h5>
+              <p>Aprendamos las partes básicas que conforman una computadora.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="imgs" id="programas"></div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fw-bold">Programas para comenzar con la informática</h5>
+              <p>Aprendamos el uso básico de los programas donde se trabaja comunmente hoy en día.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="imgs" id="juegos"></div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fw-bold">Forma divertida de aprender</h5>
+              <p>Aprendamos mediante juegos, hagamos del aprendizaje algo divertido.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section id="aprendizaje" class="container-md" style="margin-top: 60px;">
+        <section class="row justify-content-center">
+          <div class="card col-6 col-md-4" style="width: 20rem; margin: 8px 8px 8px 5px;">
+            <img src="imagenes/computadora.png" id="cartas-img" class="card-img-top" alt="...">
+            <div class="card-body" >
+              <h5 class="card-title">Partes de la computadora</h5>
+              <p class="card-text">Se denomina hardware a todos los elementos tangibles de la computadora: procesador, monitor, teclado, tarjetas, circuitos integrados, cables, etc.</p>
+              <a href="#descripciones" class="btn btn-primary fw-bold" style="width: 100%;">Aprender</a>
+            </div>
+          </div>
+
+          <div class="card col-6 col-md-4" style="width: 20rem; margin: 8px 8px 8px 5px;">
+            <img src="imagenes/office-logo.png" id="cartas-img" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Programas Office</h5>
+              <p class="card-text">Hacer que tus hijos se acostumbren a Microsoft Word en una edad temprana es una buena idea que les servirá bastante en el futuro.</p>
+              <a href="#office" class="btn btn-primary fw-bold" style="width: 100%;">Aprender</a>
+            </div>
+          </div>
+
+          <div class="card col-6 col-md-4" style="width: 20rem; margin: 8px 8px 8px 5px;">
+            <img src="imagenes/juegos-informatica.webp" id="cartas-img" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Juegos</h5>
+              <p class="card-text">Aprovechemos el interés y entusiasmo que los niños sienten por los videojuegos y los beneficios que estos prestan para el aprendizaje de contenidos tan complejos como los de las ciencias de la computación.</p>
+              <a href="#juegos2" class="btn btn-primary fw-bold" style="width: 100%;">Aprender</a>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="descripciones" class="container-md" style="margin-top: 60px;">
+        
+        <hr id="" class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Partes de la computadora<span class="text-muted"> (Básicas)</span></h2>
+            <p class="lead">El hardware de una computadora está compuesto por la unidad central, los dispositivos periféricos de entrada, de salida y de entrada/salida, así como por los cables, conexiones y puertos que permiten la interacción de todos ellos. Todos estos elementos en conjunto constituyen la arquitectura básica de la computadora.</p>
+          </div>
+          <div class="col-md-5">
+            <a href="computadora.html"><img class="imgs2" id="imagen1" src="imagenes/computadora-2.jpg" alt=""></a>
+          </div>
+        </div>
+
+        <hr id="office" class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-5">
+            <a href="word.html"><img src="imagenes/word-logo.jpg" id="imagen2" alt="" class="imgs2"></a>
+          </div>
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Usar correctamente word<span class="text-muted"> (Conocimiento básico)</span></h2>
+            <p class="lead">Si no trabajas para nada en una computadora, es probable que te encuentres con un documento creado con Microsoft Word. Las empresas usan Word, muchos cursos universitarios requieren Word como parte de su currículo, e incluso algunas escuelas primarias están empezando a incorporar Word en sus clases.</p>
+          </div>
+        </div>
+
+        <hr id="juegos2" class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Juegos para aprender informática<span class="text-muted"></span></h2>
+            <p class="lead">Quienes mayor experiencia y conocimiento práctico tengan en este área podrán navegar de manera mucho más efectiva el ámbito personal y profesional presente y futuro. Por supuesto, no se trata de una tarea sencilla.</p>
+          </div>
+          <div class="col-md-5">
+            <a href="juegos.html" class="descripciones"><img src="imagenes/juegos-2.png" alt="" id="imagen3" class="imgs2"></a>
+          </div>
+        </div>
+        <hr class="featurette-divider">
+        
+      </section>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
